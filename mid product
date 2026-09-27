@@ -1,0 +1,5 @@
+num = int(input("Enter a 3-digit number: "))
+
+middle = (num // 10) % 10
+
+print("Middle digit =", middle)
