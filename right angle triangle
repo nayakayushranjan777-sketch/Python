@@ -1,0 +1,8 @@
+a = int(input("Enter first side: "))
+b = int(input("Enter second side: "))
+c = int(input("Enter third side: "))
+
+if a * a + b * b == c * c:
+    print("Right-angled triangle")
+else:
+    print("Not a right-angled triangle")
